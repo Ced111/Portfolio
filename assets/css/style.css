@@ -258,7 +258,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
 
 /*.single-about-img */
 .single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
-.single-about-img:before {
+/*.single-about-img:before {
     position:  absolute;
     content: " ";
     top: 0;
@@ -266,7 +266,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
     width: 109%;
     height:  100%;
     background: rgba(31,44,108,.3);
-}
+}*/
 .single-about-img img {
     max-width: 500px;
     height: 468px;
