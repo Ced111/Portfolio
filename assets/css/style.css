@@ -256,32 +256,31 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
 /*.single-about-txt*/
 
+.single-about-img {
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30); /* Ombre déjà définie */
+    border-radius: 50%; /* Assurez-vous que le conteneur est rond */
+    overflow: hidden; /* Cela empêchera tout débordement si l'image est ronde */
+}
+
+/* Cette classe s'applique à l'image elle-même */
+.single-about-img img {
+    max-width: 100%; /* S'assure que l'image ne dépasse pas le conteneur */
+    height: auto; /* Garde le ratio de l'image intact */
+    border-radius: 50%; /* Cela rendra l'image ronde */
+}
+
+/* Ces styles s'appliquent à l'effet de voile sur l'image */
 .single-about-img:before {
     position: absolute;
-    content: "";
+    content: " ";
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; /* Modifié de 109% à 100% pour s'adapter exactement au conteneur */
     height: 100%;
-    background: rgba(0, 0, 0, 0.1); /* un léger voile gris */
-    border-radius: 50%; /* Assurez-vous que le voile reste rond */
-    z-index: 1; /* Assurez-vous que le voile est au-dessus de l'image mais en dessous de l'ombre */
-}
-
-.single-about-img {
-    overflow: visible;
-    position: relative;
-    border-radius: 50%; /* Assurez-vous que le conteneur de l'image est également rond si nécessaire */
-    overflow: hidden; /* Empêche le voile de dépasser les bords arrondis */
-    z-index: 1; /* L'ombre doit être au-dessus du voile */
-}
-
-
-.single-about-img img {
-    max-width: 500px;
-    height: 468px;
-    border-radius: 50%; /* Assurez-vous que l'image est ronde */
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Applique l'ombre */
+    background: rgba(31,44,108,.3); /* Couleur et transparence de votre voile */
+    border-radius: 50%; /* S'assure que le voile est aussi rond */
+    z-index: 2; /* Assurez-vous que cela apparaît au-dessus de l'image mais sous le texte/contenu */
 }
 
 .about-list-icon{
