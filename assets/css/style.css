@@ -269,17 +269,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
 }
 
 .single-about-img {
+    overflow: visible;
     position: relative;
     border-radius: 50%; /* Assurez-vous que le conteneur de l'image est également rond si nécessaire */
     overflow: hidden; /* Empêche le voile de dépasser les bords arrondis */
-    z-index: 2; /* L'ombre doit être au-dessus du voile */
+    z-index: 1; /* L'ombre doit être au-dessus du voile */
 }
 
 
 .single-about-img img {
     max-width: 500px;
     height: 468px;
+    border-radius: 50%; /* Assurez-vous que l'image est ronde */
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Applique l'ombre */
 }
+
 .about-list-icon{
     display: flex;
     justify-content: center;
