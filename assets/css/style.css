@@ -263,11 +263,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
 }
 
 .single-about-img img {
-    max-width: 100%; /* S'assure que l'image est responsive et ne dépasse pas son conteneur */
-    height: auto; /* Garde le ratio de l'image intact */
-    box-shadow: 0 5px 20px rgba(14,25,80, .3); /* Ombre appliquée directement à l'image */
-    border-radius: 50%; /* Si l'image est déjà ronde, cette ligne est nécessaire pour s'assurer que le navigateur reconnaît sa forme */
+    /* Supprimez la bordure arrondie si l'image est déjà ronde avec un fond transparent */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* L'ombre pour créer l'effet désiré */
+    width: auto; /* Gardez le rapport largeur/hauteur intact */
+    height: auto; /* Gardez le rapport largeur/hauteur intact */
+    /* Si l'image n'est pas parfaitement ronde ou si vous souhaitez forcer la rondeur */
+    border-radius: 50%;
 }
+
 
 /* Ces styles s'appliquent à l'effet de voile sur l'image */
 .single-about-img:before {
