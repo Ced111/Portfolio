@@ -858,8 +858,17 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     projet.html
 */
 
-
 .projet-img {
     margin-bottom: 20px; /* Ajoute un espace en dessous de chaque image */
 }
+
+
+.boutonVoirSite {
+    background-color: #77b5fe; /* Couleur de fond bleu */
+    color: white; /* Texte blanc */
+    border-radius: 5px; /* Bordures arrondies */
+    font-size: 18px; /* Taille de texte */
+    line-height: 40px; /* Hauteur de ligne */
+}
+
 
