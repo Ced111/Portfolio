@@ -872,3 +872,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 
+.programme-link {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 19px;
+    color: inherit;
+}
+
+
