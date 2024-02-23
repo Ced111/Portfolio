@@ -235,13 +235,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
-    color: #3c4258;
+    color: #000000;
     text-transform: initial;
     line-height: 1.8;
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #6e6e6e;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -880,3 +880,37 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 
+/* Style pour la section portfolioApprentissage-details */
+#portfolioApprentissage-details {
+    padding: 50px 0;
+    background-color: #f9fbfd; /* Couleur de fond (ajustez selon vos besoins) */
+}
+
+#portfolioApprentissage-details .section-heading h2 {
+    font-size: 28px; /* Taille de la police pour le titre */
+    margin-bottom: 30px; /* Espace sous le titre */
+    color: #333; /* Couleur du texte (ajustez selon vos besoins) */
+    text-align: center; /* Alignement du texte */
+}
+
+#portfolioApprentissage-details .about-content {
+    font-size: 16px; /* Taille de la police pour le contenu */
+    color: #666; /* Couleur du texte (ajustez selon vos besoins) */
+}
+
+#portfolioApprentissage-details .about-content h3 {
+    font-size: 22px; /* Taille de la police pour les sous-titres */
+    margin-top: 20px; /* Espace au-dessus des sous-titres */
+    margin-bottom: 10px; /* Espace sous les sous-titres */
+    color: #333; /* Couleur du texte (ajustez selon vos besoins) */
+}
+
+#portfolioApprentissage-details .about-content p {
+    line-height: 1.6; /* Hauteur de ligne pour le paragraphe */
+    margin-bottom: 15px; /* Espace sous les paragraphes */
+}
+
+#portfolioApprentissage-details a {
+    color: #2c9df9; /* Couleur des liens (ajustez selon vos besoins) */
+    text-decoration: underline; /* Souligner les liens */
+}
