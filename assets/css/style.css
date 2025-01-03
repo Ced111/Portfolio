@@ -244,6 +244,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2c41f9;}
     color: #6e6e6e;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
+    text-align: justify;
 }
 .single-about-add-info {
     margin: 35px 0;
@@ -914,3 +915,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #2c9df9; /* Couleur des liens (ajustez selon vos besoins) */
     text-decoration: underline; /* Souligner les liens */
 }
+
+#projet-details {
+    padding-top: 100px; /* Ajoute un espace de 100px au-dessus du contenu */
+}
+
+
