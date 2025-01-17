@@ -897,6 +897,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 #portfolioApprentissage-details .about-content {
     font-size: 16px; /* Taille de la police pour le contenu */
     color: #666; /* Couleur du texte (ajustez selon vos besoins) */
+    text-align: justify; /* Justifie le texte */
 }
 
 #portfolioApprentissage-details .about-content h3 {
@@ -909,6 +910,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 #portfolioApprentissage-details .about-content p {
     line-height: 1.6; /* Hauteur de ligne pour le paragraphe */
     margin-bottom: 15px; /* Espace sous les paragraphes */
+    text-align: justify; /* Justifie le texte */
 }
 
 #portfolioApprentissage-details a {
